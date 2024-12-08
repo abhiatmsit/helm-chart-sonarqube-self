@@ -160,7 +160,7 @@ httproute:
   #     port: 8080
 
 ingress:
-  enabled: false
+  enabled: true
   # Used to create an Ingress record.
   hosts:
     - name: sonarqube.test.abhishek.com
