@@ -163,7 +163,7 @@ ingress:
   enabled: false
   # Used to create an Ingress record.
   hosts:
-    - name: sonarqube.your-org.com
+    - name: sonarqube.test.abhishek.com
       # Different clouds or configurations might need /* as the default path
       # path: /
       # For additional control over serviceName and servicePort
@@ -454,12 +454,12 @@ annotations: {}
 ## Adjust these values to your needs, you can find more details on the main README of the chart.
 resources:
   limits:
-    cpu: 800m
-    memory: 6144M
-    ephemeral-storage: 512000M
+    cpu: 500m
+    memory: 4000M
+    ephemeral-storage: 51200M
   requests:
-    cpu: 400m
-    memory: 2048M
+    cpu: 300m
+    memory: 1024M
     ephemeral-storage: 1536M
 
 persistence:
@@ -479,7 +479,7 @@ persistence:
   ##
   storageClass:
   accessMode: ReadWriteOnce
-  size: 5Gi
+  size: 1Gi
   uid: 1000
   guid: 0
 
@@ -565,14 +565,14 @@ postgresql:
   resources:
     limits:
       cpu: 2
-      memory: 2Gi
+      memory: 1Gi
     requests:
       cpu: 100m
       memory: 200Mi
   persistence:
     enabled: true
     accessMode: ReadWriteOnce
-    size: 20Gi
+    size: 1Gi
     storageClass:
   securityContext:
     enabled: true
