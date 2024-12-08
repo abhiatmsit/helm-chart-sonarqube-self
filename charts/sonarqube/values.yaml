@@ -615,11 +615,11 @@ tests:
   enabled: true
   resources:
     requests:
-      cpu: 500m
+      cpu: 300m
       memory: 200M
       ephemeral-storage: 100M
     limits:
-      cpu: 500m
+      cpu: 300m
       memory: 200M
       ephemeral-storage: 1000M
 
