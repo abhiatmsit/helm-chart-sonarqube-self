@@ -1,0 +1,4 @@
+#index.yaml for helm chart
+apiVersion: v1
+entries: {}
+generated: "2024-12-08T10:26:54.75426773Z"
