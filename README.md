@@ -32,6 +32,10 @@ Note of Thanks
 This chart was based on the great work done on the [Oteemo chart](https://github.com/Oteemo/charts/tree/master/charts/sonarqube).
 We would like to thank everyone who contributed to their great work on this project.
 
+Note
+---------------------------
+This is specifically designed for deployment in local enviroment using modoified helm charts, here volume, ingress and other itmes are modified to adjust as per local setup and requirements.
+
 License
 -------
 
